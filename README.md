@@ -1,78 +1,51 @@
-# MERN Stack School Management System
+# University System: Practical Training on Spider Networks
 
-![YouTube Thumbnail](https://github.com/yatunyi15075/Mern-School-Management-System/blob/master/frontend/src/assets/YouTube_Thumbnail.png)
-
-This is a School Management System built using the MERN (MongoDB, Express.js, React, Node.js) stack. The frontend is developed with React and Vite, with styling done using styled-components.
+## Project Overview
+This repository contains materials and resources for the "Practical Training on Spider Networks" course. The course is designed to provide hands-on experience and practical knowledge about spider networks, covering key concepts, tools, and techniques necessary for understanding and working with these systems.
 
 ## Features
+- Comprehensive resources on spider networks.
+- Practical exercises and tutorials.
+- Assignments to reinforce learning.
+- Tools and scripts for working with spider networks.
 
-- **Admin Dashboard:** Administrators can manage student records, teacher information, courses, exams, assignments, track student attendance, add teachers, and view school performance metrics.
-- **Student Dashboard:** Students have access to their own dashboard where they can view their class schedules, assignments, submit assignments, and track their academic progress.
-- **Teachers Dashboard:** Teachers can manage class schedules, assign and grade exams and assignments, and view student performance metrics.
+## Contributors
+- **Mostafa Mohamed** (ID: 2021030052)
+- **Mohamed Mamdoh** (ID: 2021030031)
+- **Mostafa Ibrahim** (ID: 2021030056)
+- **Moselh Adel** (ID: 2021030042)
 
-### Operations Include:
-- **Adding Students:** Admins can add new student records, including personal details and academic information.
-- **Class Management:** Admins can create and manage classes, assign teachers, and schedule classes.
-- **Exam Management:** Teachers can create and manage exams, assign them to classes, and grade student submissions.
-- **Assignment Management:** Teachers can create assignments, assign them to classes, and track student submissions.
-- **Student Submission:** Students can submit assignments through the student dashboard.
-- **Adding Teachers:** Admins can add new teachers to the system.
-- **School Performance Metrics:** Admins can view various metrics related to the school's performance.
+## How to Use
+1. Clone the repository:
+   ```bash
+   git clone <https://github.com/mostafa9011/university-system>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd university-system-spider-networks
+   ```
+3. Follow the instructions in the respective folders to get started with exercises and assignments.
 
-## Technologies Used
+## Folder Structure
+- **/docs**: Documentation and learning materials.
+- **/exercises**: Practical tasks and solutions.
+- **/tools**: Utilities and scripts for working with spider networks.
 
-- **Frontend:** React, Vite, styled-components
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JSON Web Tokens (JWT)
-- **Deployment:** Not deployed yet
+## Prerequisites
+- Basic understanding of networks.
+- Tools: Python 3.x, Git.
 
-## Setup Instructions
+## Installation
+1. Install the required dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-1. **Clone the repository:**
+## Support
+For any issues or questions, please contact the contributors.
 
-git clone https://github.com/yatunyi15075/mern-school-management-system.git
+---
 
+**Note:** This project is part of the "Practical Training on Spider Networks" course and is intended for educational purposes.
 
-2. **Install dependencies:**
-
-cd mern-school-management-system
-npm install
-
-
-3. **Set up environment variables:**
-
-- Create a `.env` file in the root directory.
-- Define the following environment variables:
-
-  ```
-  PORT=4000
-  MONGODB_URI=your_mongodb_connection_string
-  SECRET_KEY=your_secret_key_for_jwt
-  ```
-
-4. **Run the development servers:**
-
-- Start the frontend server:
-
-  ```
-  npm run dev
-  ```
-
-- Start the backend server:
-
-  ```
-  npm start
-  ```
-
-5. **Access the application:**
-
-Open your browser and navigate to `http://localhost:5173` for the frontend and `http://localhost:4000` for the backend.
-
-## Contributing
-
-Contributions are welcome! Feel free to submit pull requests, bug reports, feature requests, or any suggestions to improve this project.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+## Supervisor : Dr/ Mohaemd Abd Ellatief
